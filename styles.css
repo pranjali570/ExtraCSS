@@ -1,0 +1,37 @@
+div.child{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    align-items: center;
+}
+div.child:hover{
+    background-color: aqua;
+}
+
+input:focus{
+    margin: 10px;
+    background-color: orange !important;
+}
+
+p::selection{
+    background-color: plum;
+    color: brown;
+}
+li{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    font-size: 4rem;
+    width: 200px;
+}
+
+li::after{
+    content: " ";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    right: 10px;
+    top: 30px;
+}
