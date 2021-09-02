@@ -20,15 +20,13 @@ div.container div.ball {
     transition-timing-function: ease;
 }
 
-div.container:hover div.ball{
+div.ball {
     margin: 10px;
     animation-duration: 2s;
     animation-name: stylish-rotate;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
-    animation-delay: 0.5s;
-    transform: translateY(-100px);
-} 
+}
 
 div.ball:nth-child(2) {
     animation-delay: 2s;
